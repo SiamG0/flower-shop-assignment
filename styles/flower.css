@@ -20,6 +20,7 @@
 
 
 
+
 /* Nav style section start's here */
 
 
@@ -56,3 +57,38 @@ nav a{
 }
 
 /* nav section ends here */
+
+/* banner section start's here */
+
+.header{
+    background-color: #fceef1;
+    
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner_iamge{
+    width: 500px;
+    height: 80vh;
+    
+}
+
+
+
+.banner_greeting{
+    font-size: 45;
+    color: rgb(58, 48, 49);
+    margin-bottom: 5px;
+}
+
+.banner_description{
+    text-align: center;
+    color: rgb(58, 48, 49);
+    margin-bottom: 40px;
+}
+
+/* banner section ends here */
