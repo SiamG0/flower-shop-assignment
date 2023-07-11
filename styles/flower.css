@@ -37,6 +37,7 @@
 
 
 
+
 /* Nav style section start's here */
 
 
@@ -226,10 +227,11 @@ nav a{
     justify-content: center;
     gap: 10px;
     padding-top: 50px;
+    
 }
 
 .insta_box1{
-    border: 1px solid green;
+    
     height: 250px;
     width: 200px;
 }
@@ -240,14 +242,65 @@ nav a{
 
 .sub{
     background-image: url("/Flower Asset/Rectangle\ 9.png");
-    border-radius: 8px;
+    background-size: 1000px;
+    background-position: center;
+    text-align: center;
+    border-radius: 10px;
     padding: 80px;
     margin: 90 180;
     background-repeat: no-repeat;
+}
+
+.sub_email{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+   
+}
+#email{
+    width: 400px;
+    height: 48px;
+    border-radius: 5px;
+    
 }
 
 
 
 /* sub section ends here */
 
+/* footer start's here */
 
+.footer{
+    text-align:center;
+    margin: 80px 0 0 0;
+    height: 250px;
+    width: 100%;
+    background-color:black ;
+    
+    
+
+}
+.footspan{
+    color:#fb05a1d3;
+}
+
+.foot_titel{
+    color: white;
+    padding-top: 100px;
+}
+.section_description_foot{
+    color: white;
+    line-height: 2 ;
+}
+/* footer ends here */
+
+
+/*Our Decoration service for Events section start's here */
+
+
+
+
+
+
+/*Our Decoration service for Events section ends here  */
