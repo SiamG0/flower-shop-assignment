@@ -299,7 +299,24 @@ nav a{
 /*Our Decoration service for Events section start's here */
 
 
+.decoration{
+    display: flex;
+    justify-content:space-evenly;
+    
+    margin: 50px 0 50px 0;
+    background-color:#d9eff1 ;
+}
 
+.deco_img{
+    width: 700px;
+}
+.deco_titel{
+    text-align: center;
+    align-items: center;
+    padding-top: 200px;
+    font-size: x-large;
+    line-height: 2;
+}
 
 
 
