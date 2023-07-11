@@ -24,12 +24,13 @@
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .section_description{
     color: #45020296;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
@@ -155,12 +156,98 @@ nav a{
 }
 .fname{
     color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 35px;
-text-decoration-line: underline;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
+
+/* card 1 section start's here */
+.card_section_1{
+    background-color: #f4f4f4;
+    padding:80px;   
+    border-radius: 10px;
+    margin: 100px 250px;
+    
+}
+
+ .card_1_imgs{
+    display: flex;
+    justify-content:space-evenly;
+    
+} 
+
+.img1{
+    text-align: center;
+    
+}
+
+/* card 1 section ends here */
+
+/* sale section starts here */
+
+.sale{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fef6f8;
+    padding: 70px;
+    text-align: center;
+}
+
+.off_sale{
+    color: #fb05a1d3;
+}
+
+.sale_titel{
+    color: #272727;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.sale_description{
+   
+    margin-bottom: 10px;
+}
+/* sale section ends here */
+
+/* instagram section start's here */
+
+.instagram{
+    margin: 150px;
+}
+
+.insta_main_box{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 50px;
+}
+
+.insta_box1{
+    border: 1px solid green;
+    height: 250px;
+    width: 200px;
+}
+
+/* instagram section ends here */
+
+/* sub section starts here */
+
+.sub{
+    background-image: url("/Flower Asset/Rectangle\ 9.png");
+    border-radius: 8px;
+    padding: 80px;
+    margin: 90 180;
+    background-repeat: no-repeat;
+}
+
+
+
+/* sub section ends here */
+
 
