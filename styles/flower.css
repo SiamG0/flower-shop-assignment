@@ -1,3 +1,4 @@
+/* Common Style section */
 *{
     font-family:Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -17,6 +18,20 @@
     padding: 15px 30px;
 
 }
+
+.section_titel{
+    color: rgb(49, 36, 36);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section_description{
+    color: #45020296;
+    text-align: center;
+    font-size: 20px;
+}
+
 
 
 
@@ -92,3 +107,60 @@ nav a{
 }
 
 /* banner section ends here */
+
+/* Our Featured Flowers section start's here */
+
+.featured_flowers{
+    margin: 100px 150px 100px 150px;
+    
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.flower_box{
+    margin: 50px 50px 0px 20px;
+    background-color: #f2dee7;
+    width: 300px;
+    height: 350px;
+    border-radius:300px 300px 0px 0px;
+    
+    
+}
+.flower_box2{
+    margin: 50px 50px 0px 20px;
+    background-color: #d9eff1;
+    width: 300px;
+    height: 350px;
+    border-radius:300px 300px 0px 0px;
+    
+}
+.flower_box3{
+    margin: 50px 50px 0px 20px;
+    background-color: #e3ebdb;
+    width: 300px;
+    height: 350px;
+    border-radius:300px 300px 0px 0px;
+   
+
+}
+.featured_img{
+    width: 290px;
+    height: 350px;
+    flex-shrink: 0;
+}
+.fname{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
+
